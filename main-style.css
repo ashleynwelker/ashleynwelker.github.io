@@ -4,6 +4,9 @@ h1, h2, h3, h4, h5, h6 {
 p, li {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+img {
+    float: right;
+}
 nav {
     background-color: lightblue;
 }
