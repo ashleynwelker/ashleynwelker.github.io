@@ -3,7 +3,7 @@
 nav ul {display: flex;}
 nav ul li {flex-basis: 25%;}
 
-nav li {float:inline-block; width: 25%;}
+nav li {float: inline-block; width: 25%;}
 
 main figure {
     float: right;
