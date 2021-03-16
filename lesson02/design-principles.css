@@ -1,3 +1,17 @@
 section {
     background-color: #B4CDED;
+    text-align: center;
+    border: #FFED66;
+}
+h1, h2 {
+    color: #2274A5;
+}
+header {
+    background-color: #B4CDED;
+}
+@media only screen and (min-width: 560px) {
+
+}
+@media only screen and (min-width: 1028px) {
+
 }
