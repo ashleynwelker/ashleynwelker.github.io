@@ -16,9 +16,18 @@ header {
 footer {
     background-color:  #B4CDED;
 }
-@media only screen and (min-width: 560px) {
-
+main {
+    display: grid;
 }
+/**Tablet view**/
+@media only screen and (min-width: 560px) {
+    main {
+        grid-column: span 2;
+    }
+}
+/**Desktop view**/
 @media only screen and (min-width: 1028px) {
-
+    main {
+        grid-column: span 3;
+    }
 }
