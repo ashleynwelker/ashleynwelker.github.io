@@ -1,1 +1,19 @@
-
+body {
+    background-color: #B4CDED;
+}
+header {
+    background-color: #FFED66;
+}
+img {
+    width: 200px;
+}
+nav {
+    display: inline;
+}
+h2 {
+    color: #2274A5;
+    font-family: 'PT Serif', serif;
+}
+p {
+    font-family: 'Quicksand', sans-serif;
+}
