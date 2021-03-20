@@ -7,13 +7,27 @@ header {
 img {
     width: 200px;
 }
-nav {
-    display: inline;
-}
 h2 {
     color: #2274A5;
     font-family: 'PT Serif', serif;
 }
 p {
     font-family: 'Quicksand', sans-serif;
+}
+nav {
+    flex-basis: 33%;
+}
+
+/**Tablet View**/
+@media only screen and (min-width: 560px) {
+    nav {
+        flex-basis: 50%;
+    }
+}
+
+/**Desktop View**/
+@media only screen and (min-width: 1028px) {
+    nav {
+        flex-basis: 100%;
+    }
 }
