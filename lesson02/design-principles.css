@@ -17,17 +17,21 @@ footer {
     background-color:  #B4CDED;
 }
 main {
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100%;
 }
 /**Tablet view**/
 @media only screen and (min-width: 560px) {
     main {
         grid-column: span 2;
+        flex-basis: 50%;
     }
 }
 /**Desktop view**/
 @media only screen and (min-width: 1028px) {
     main {
         grid-column: span 3;
+        flex-basis: 33%;
     }
 }
