@@ -3,4 +3,8 @@
     .class {
         display: none;
     }
+    nav {
+        display: inline;
+    }
+    
 }
