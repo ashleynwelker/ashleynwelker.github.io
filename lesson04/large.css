@@ -3,4 +3,8 @@
     .class {
         display: none;
     }
+    main, footer {
+        max-width: 70rem;
+        text-align: center;
+    }
 }
