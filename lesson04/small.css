@@ -7,3 +7,15 @@
 #hero-image {
     min-width: 100%;
 }
+article {
+    text-align: left;
+}
+#contactUs {
+    text-align: left;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'PT Serif', serif;
+}
+p, li {
+    font-family: 'Quicksand', sans-serif;
+}
