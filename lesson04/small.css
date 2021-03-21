@@ -36,3 +36,6 @@ header {
 .headings {
     flex-direction: column;
 }
+#menu {
+    display: none;
+}
