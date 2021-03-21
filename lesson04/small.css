@@ -1,8 +1,8 @@
 #logo {
     float: left;
 }
-nav {
-    
+.class {
+    display: block;
 }
 #hero-image {
     min-width: 100%;
