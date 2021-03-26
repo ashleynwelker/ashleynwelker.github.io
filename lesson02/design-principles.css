@@ -2,6 +2,7 @@ section {
     background-color: #B4CDED;
     text-align: center;
     border: #FFED66;
+    flex-basis: 33%;
 }
 h1, h2 {
     color: #2274A5;
@@ -24,14 +25,12 @@ main {
 /**Tablet view**/
 @media only screen and (min-width: 560px) {
     main {
-        grid-column: span 2;
         flex-basis: 50%;
     }
 }
 /**Desktop view**/
 @media only screen and (min-width: 1028px) {
     main {
-        grid-column: span 3;
         flex-basis: 33%;
     }
 }
