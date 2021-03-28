@@ -1,41 +1,37 @@
 #logo {
     float: left;
     width: 80px;
+    font-size: 1rem;
 }
-.class {
-    display: block;
-}
-#hero-image {
+.class {display: block;}
+
+#hero-image, #article-image {
     min-width: 50%;
     height: 10%;
     /* width: 120px; */
 }
-article {
-    text-align: left;
-}
-#contactUs {
-    text-align: left;
-}
+article {text-align: left;}
+
+#contactUs {text-align: left;}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'PT Serif', serif;
 }
-p, li {
-    font-family: 'Quicksand', sans-serif;
-}
-#title {
-    font-size: 30px;;
-}
-body {
-    background-color: #B4CDED;
-}
+p, li {font-family: 'Quicksand', sans-serif;}
+
+#title {font-size: 22px;}
+
+body {background-color: #B4CDED;}
+
 header {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.headings {
-    flex-direction: column;
-}
-#menu {
-    display: none;
+.headings {flex-direction: column;}
+
+#menu {display: none;}
+
+h3 {
+    font-size: 10px;
 }
