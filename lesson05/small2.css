@@ -45,3 +45,6 @@ div.showme {
 div.hideme {
     display: none;
 }
+section.forecast {
+    display: none;
+}

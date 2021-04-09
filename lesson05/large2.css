@@ -9,5 +9,28 @@
     }
     nav {
         display: inline;
+        background: ;
+    }
+    #menu {
+        display: block;
+        text-decoration: none;
+    }
+    li {
+        display: inline;
+        border: 2px solid black;
+        padding: 10px 15px;
+    }
+    section.forecast {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+    section.forecast div {
+        text-align: center;
+        border: 2px solid gray;
+    }
+    section.forecast div h5 {
+        background-color: #ccc;
+        margin: 0;
+        padding: 1rem 0;
     }
 }
