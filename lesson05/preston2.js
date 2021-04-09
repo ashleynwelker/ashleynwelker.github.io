@@ -16,4 +16,11 @@ function toggleMenu() {
 }
 
 const today = new Date();
-cont dayNumber = today.getDay();
+const dayNumber = today.getDay();
+const element = document.getElementById("message");
+
+if (dayNumber == 5) {
+    element.classList.add("showme");
+} else {
+    element.classList.add("hideme");
+}
