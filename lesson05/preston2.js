@@ -14,3 +14,6 @@ function toggleMenu() {
         list.style.display = "block";
     }
 }
+
+const today = new Date();
+cont dayNumber = today.getDay();
