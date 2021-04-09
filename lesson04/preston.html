@@ -3,14 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Preston Weather Site</title>
+
+    <!--Style Sheets-->
     <link href="small.css" rel="stylesheet">
     <link href="medium.css" rel="stylesheet">
     <link href="large.css" rel="stylesheet">
+
     <script src="preston.js"></script>
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body onload="dates()">
+    <!--Header-->
     <header>
         <img id="logo" src="../sun-cloud-weather-icon.png" alt="weather-logo">
         <section class="headings">
@@ -18,6 +25,8 @@
             <h3>Where you come for all your weather needs</h3>
         </section>
     </header>
+
+    <!--Navigation-->
     <nav>
         <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
             <i class="fa fa-bars"></i>
@@ -31,14 +40,21 @@
             <li>Gallery</li>
         </ul>
     </nav>
+
+    <!--Main Content-->
     <main>
         <h1>Preston, Idaho</h1>
-        <img id="hero-image" src="idaho-weather-image.jpg" alt="Idaho weather image">
-        <div>Weather Summary</div>
-        <section>
+        <input placeholder="Hero Image and Weather Summary">
+        <!-- <section>
+            <img id="hero-image" src="idaho-weather-image.jpg" alt="Idaho weather image">
+            <div>Weather Summary</div>
+        </section> -->
+        <input placeholder="Five Day Weather Forecast">
+        <!-- <section>
             <h2>Five Day Weather Forecast</h2>
-        </section>
-        <article>
+        </section> -->
+        <input placeholder="Weather Article">
+        <!-- <article>
             <h2>Natural Disasters and Utah's Weather</h2>
             <p>December in the capital city was rather average. The normal average temperature 
                 in Salt Lake City for the month is 30.3°. In 2020, the average temperature was 30.0°. 
@@ -52,8 +68,9 @@
                 https://www.abc4.com/weather/natural-disasters-and-utahs-weather-2020-was-one-for-the-record-books/
             </p>
         </article>
-        <img id="article-image" src="images/earthquake-utah.jpg" alt="Picture of destruction after earthquake">
-        <section id="contactUs">
+        <img id="article-image" src="images/earthquake-utah.jpg" alt="Picture of destruction after earthquake"> -->
+        <input placeholder="Contact Information">
+        <!-- <section id="contactUs">
             <h2>Contact Us</h2>
             <h5>Address</h5>
             <p>1234 Main St. Any Town, USA</p>
@@ -62,11 +79,14 @@
             <h5>Email: youremail@email.com</h5>
             <p></p>
             <iframe src="https://www.google.com/maps/place/Preston,+ID" title="Map of Preston, Idaho"></iframe>
-        </section>
+        </section> -->
     </main>
+
+    <!--Footer-->
     <footer>
         <p>&copy;<span id="current-year"></span> | Ashley Welker (Ray)</p>
         <p>Last Modified: <span id="last-modified"></span></p>
     </footer>
+
 </body>
 </html>
